@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
 
 html,
 body {
@@ -141,9 +146,10 @@ h2.post {
 }
 
 p.post {
+	text-align: justify;
 	color: #0D0D0D; /* #D9D9D7; */
 	font-size: 24px;
-	font-family: Merriweather;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: 400;
 }
 
