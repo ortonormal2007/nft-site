@@ -8,7 +8,17 @@ body {
 	background-color: red;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Work Sans;
+}
+
+h2 {
 	margin: 0;
 	padding: 0;
 	font-family: Work Sans;
@@ -123,6 +133,13 @@ h1.post {
 	padding-top: 60px;
 }
 
+h2.post {
+	font-size: 46px;
+	#text-align: center;
+	font-weight: 700;
+	padding-top: 60px;
+}
+
 p.post {
 	color: #0D0D0D; /* #D9D9D7; */
 	font-size: 24px;
@@ -144,4 +161,19 @@ div.bottom_edge {
 	border-bottom-width: 4px;
 	border-bottom-style: dashed;
 	margin-bottom: 50px;
+}
+
+div.questions {
+	width: min(700px, 100%);
+	/*width: 60%;*/
+	margin: 0 auto;
+	color: #D9D9D7;
+}
+
+a.light {
+	color: #F22F1D;
+}
+
+a.light:visited {
+	color: #F22F1D;
 }
