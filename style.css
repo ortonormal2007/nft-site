@@ -177,3 +177,11 @@ a.light {
 a.light:visited {
 	color: #F22F1D;
 }
+
+a.dark {
+	color: #400C08;
+}
+
+a.dark:visited {
+	color: #400C08;
+}
