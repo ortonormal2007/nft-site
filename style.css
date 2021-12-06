@@ -109,11 +109,11 @@ div.flexbox {
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
-    align-items: stretch;
+        align-items: stretch;
 }
 
 div.post_text{
-	width: 80%;
+	width: max(80%, min(100%, 300px));
 	min-width: 100px;
 	max-width: 500px;
 	padding: 10px;
@@ -146,7 +146,7 @@ h2.post {
 }
 
 p.post {
-	text-align: justify;
+	/* text-align: justify;*/
 	color: #0D0D0D; /* #D9D9D7; */
 	font-size: 24px;
 	font-family: 'IBM Plex Sans', sans-serif;
