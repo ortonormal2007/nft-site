@@ -17,6 +17,16 @@ a {
   text-decoration: none;
 }
 
+.social__ref {
+	width: 45px;
+	height: 40px;
+	color: #ffffff;
+	margin: 0 5px;
+}
+
+.st0
+{fill:#FFFFFF;}
+
 h1 {
 	margin: 0;
 	padding: 0;
@@ -85,6 +95,18 @@ button.buy_button {
 	transition-duration: 0.6s;
 	box-shadow: 0 0px 16px 0 #0D0D0D;
 	cursor: pointer;
+}
+
+.buy_button__icon {
+	height: 45px;
+	width: 50px;
+	float: right;
+	padding-left: 25px;
+	overflow: visible;
+} 
+
+use {
+	margin: auto;
 }
 
 button.buy_button:hover {
