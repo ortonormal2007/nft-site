@@ -20,12 +20,11 @@ a {
 .social__ref {
 	width: 45px;
 	height: 40px;
-	color: #ffffff;
 	margin: 0 5px;
 }
 
 .st0
-{fill:#FFFFFF;}
+{fill:#D9D9D7;}
 
 h1 {
 	margin: 0;
@@ -101,7 +100,7 @@ button.buy_button {
 	height: 45px;
 	width: 50px;
 	float: right;
-	padding-left: 25px;
+	padding-left: 10px;
 	overflow: visible;
 } 
 
@@ -242,5 +241,5 @@ a.dark:visited {
 
 p.member__descr {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 400;
 }
