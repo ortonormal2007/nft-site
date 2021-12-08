@@ -20,6 +20,7 @@ a {
 .social__ref {
 	width: 45px;
 	height: 40px;
+	color: #D9D9D7 ;
 	margin: 0 5px;
 }
 
@@ -96,17 +97,21 @@ button.buy_button {
 	cursor: pointer;
 }
 
+.ass {
+	width: 100%;
+}
+
 .buy_button__icon {
-	height: 45px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	float: right;
 	padding-left: 10px;
 	overflow: visible;
+	display: flex;
+	align-items: center;
 } 
 
-use {
-	margin: auto;
-}
+
 
 button.buy_button:hover {
   background-color: #4CAF50;
