@@ -231,7 +231,7 @@ a.dark:visited {
 
 .team__name {
 	/* height: 50px; */
-	font-size: 30px;
+	font-size: 40px;
 	font-family: Work Sans;
 	font-weight: 600;
 }
@@ -241,5 +241,6 @@ a.dark:visited {
 } */
 
 p.member__descr {
-	font-size: 16px;
+	font-size: 20px;
+	font-weight: 600;
 }
