@@ -10,6 +10,22 @@
 
 		  gtag('config', 'G-HMN14G6733');
 		</script>
+		<script>
+			/**
+			* Функция, отслеживающая клик по исходящей ссылке в Google Analytics.
+			* Эта функция принимает в качестве аргумента строку с действительным URL и использует ее
+			* как ярлык события. Если указать beacon в качестве метода передачи, данные обращений
+			* будут отправляться с использованием метода navigator.sendBeacon в поддерживающих его браузерах.
+			*/
+			var trackOutboundLink = function(url) {
+			  gtag('event', 'click', {
+			    'event_category': 'outbound',
+			    'event_label': url,
+			    'transport_type': 'beacon',
+			    'event_callback': function(){document.location = url;}
+			  });
+			}
+		</script>
 		<title>NeuroDudes</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,7 +85,7 @@
 							limited NFT collection of&nbsp;stylish AI&nbsp;arts
 						</p>
 					</div>
-					<button class="buy_button" onclick="window.location.href='https://opensea.io/collection/neurodudes';">
+					<button class="buy_button" onclick="window.location.href='https://opensea.io/collection/neurodudes'; trackOutboundLink('http://www.example.com'); return false;">
 						Buy here 
 						<!-- <img src="sources/opensea.png" style="height: 35px; float: right; padding-left: 5px;"> -->
 						<svg class="buy_button__icon">
