@@ -17,6 +17,16 @@ a {
   text-decoration: none;
 }
 
+.social__ref {
+	width: 45px;
+	height: 40px;
+	color: #D9D9D7 ;
+	margin: 0 5px;
+}
+
+.st0
+{fill:#D9D9D7;}
+
 h1 {
 	margin: 0;
 	padding: 0;
@@ -87,6 +97,22 @@ button.buy_button {
 	cursor: pointer;
 }
 
+.ass {
+	width: 100%;
+}
+
+.buy_button__icon {
+	height: 40px;
+	width: 40px;
+	float: right;
+	padding-left: 10px;
+	overflow: visible;
+	display: flex;
+	align-items: center;
+} 
+
+
+
 button.buy_button:hover {
   background-color: #4CAF50;
   color: white;
@@ -121,7 +147,7 @@ div.post_text{
 }
 
 div.images {
-	width: 80%;
+	width: 100%;
 	min-width: 100px;
 	max-width: 500px;
 	margin: auto auto;
@@ -160,7 +186,7 @@ p.post {
 
 img.avatar {
 	height: 200px; 
-	border-radius: 30px;
+	border-radius: 100%;
 }
 
 div.bottom_edge {
@@ -190,4 +216,35 @@ a.dark {
 
 a.dark:visited {
 	color: #400C08;
+}
+
+.team__members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.team__member {
+	/* margin: 0 10px; */
+	width: max(20vw, 250px);
+}
+
+.team__images {
+	height: 250px;
+}
+
+.team__name {
+	/* height: 50px; */
+	font-size: 36px;
+	font-family: Work Sans;
+	font-weight: 600;
+}
+
+/* .member__descr {
+	width: 100%;
+} */
+
+p.member__descr {
+	font-size: 20px;
+	font-weight: 400;
 }
