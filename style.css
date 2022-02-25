@@ -62,7 +62,7 @@ p.subheader {
 	max-height: 1000px;
 	width: 100%;
 	background-color: #0D0D0D;
-	background-image: linear-gradient(to right, transparent, #0D0D0D max(49%, 600px)), url(./sources/mosaic.png);
+	background-image: linear-gradient(to right, transparent, #0D0D0D max(49%, 600px)), url(./sources/compress/mosaic.webp);
 	background-size: auto 100%;
 	background-attachment: fixed;
 }
